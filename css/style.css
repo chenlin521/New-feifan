@@ -1,0 +1,63 @@
+
+
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+a{
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clean{
+	clear: both;
+}
+
+.contatiner{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/***********top 顶部****************/
+.top{
+	height: 30px;
+	line-height: 30px;
+	background-color: red;
+	min-width: 1000px;
+	font-size: 12px;
+}
+
+.collection a{
+	font-size: 12px;
+	font-family: "宋体";
+	font-weight: bold;
+	color: #666666;
+}
+.collection img{
+	position: relative;
+	top: 3px;
+}
+
+.collection-login {
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+	
+}
+
+.collection-login a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+}
