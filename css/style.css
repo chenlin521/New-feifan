@@ -74,10 +74,57 @@ a{
 .content-bg .logo img{
 	width:198px;
 	height: 62px;
+	margin: 12px 0px 0px 10px;
 }
 
-.shopping{
-	width: 146px;
-	height: 36px;
+.content-bg .search{
+	position: relative;
+	top: 22px;
+	left: 128px;
+	
+}
+.content-bg .search input[type="search"]{
+	width: 360px;
+	height: 38px;
+	outline: none;
+	border: none;
+}
+
+.content-bg .search input[type="submit"]{
+	width: 70px;
+	height: 38px;
+	outline: none;
+	border: none;
+	background-color: #ff8c00;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+	cursor:pointer;
+}
+
+.content-bg .shopping{
+	width: 126px;
+	height: 18px;
 	background-image: url(../images/shopping_bj.png);
+	position: relative;
+	top: 22px;
+	right: 38px;
+	padding:10px;
+	
+}
+
+.content-bg .shopping a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: white;
+	height: 18px;
+	line-height: 18px;
+}
+
+.content-bg .shopping .shopping-car img{
+	margin-right: 8px;
+}
+.content-bg .shopping .arrow{
+	position: relative;
+	left: 26px;
 }
