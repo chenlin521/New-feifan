@@ -270,17 +270,71 @@ a{
 /*二级菜单的二级菜单*/
 #menu-secong{
 	width: 534px;
-	height: 356px;
+	min-height: 326px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
 	position: absolute;
 	top: 34px;
-	left: 190px;
-	padding: 18px 18px 12px 18px;
+	left: 212px;
+	padding: 0px 18px 0px 18px;
 	
 }
 
 #menu-secong .menu-secong-varity{
 	width: 534px;
 	border-bottom: 1px solid #dddddd;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#menu-secong .menu-secong-varity .menu-secong-varity-left{
+	display: inline-block;
+	padding-right: 15px;
+	
+}
+#menu-secong .menu-secong-varity .menu-secong-varity-left a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #4b88da;
+}
+#menu-secong .menu-secong-varity .menu-secong-varity-right{
+	width: 438px;
+	display: inline-block;
+	
+}
+
+#menu-secong .menu-secong-varity .menu-secong-varity-right a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+	padding-right: 10px;
+	
+}
+#menu-secong .menu-secong-varity .menu-secong-varity-right a:hover{
+	color: #ff7300
+}
+
+#menu-secong .menu-secong-varity-button{
+	position: relative;
+	bottom: 12px;
+	margin-top:24px;
+	margin-right: 10px;
+	width: 104px;
+	height: 28px;
+	background-color: #2785e6;
+	text-align: center;
+	line-height: 25px;
+}
+
+#menu-secong .menu-secong-varity-button a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #ffffff;
+	
+	
+}
+
+#menu-secong .menu-secong-varity-button a img{
+	margin-left: 8px;
 }
