@@ -136,6 +136,7 @@ a{
 	background-color: #1369c0;
 	min-width: 1000px;
 	
+	
 }
 
 .nav .allGoods{
@@ -146,6 +147,7 @@ a{
 	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #ffffff;
+	position: relative;
 }
 
 .nav .allGoods a{
@@ -197,12 +199,10 @@ a{
 #menu{
 	width: 190px;
 	clear: both;
-	position:relative;
-	top: 0px;
+	position:absolute;
+	top: 34px;
 	left: 0px;
 	list-style: none;
-	
-	
 	
 }
 
@@ -286,7 +286,7 @@ a{
 	top: 0px;
 	left: 184px;
 	padding: 0px 18px 0px 18px;
-	display: none;
+	/*display: none;*/
 	z-index: 999;
 }
 
