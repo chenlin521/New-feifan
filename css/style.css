@@ -140,6 +140,9 @@ a{
 }
 
 .nav .allGoods{
+	position: relative;
+}
+.nav .allGoods .allGoods-all{
 	width: 190px;
 	height:34px;
 	line-height: 34px;
@@ -150,21 +153,22 @@ a{
 	position: relative;
 }
 
-.nav .allGoods a{
+
+.nav .allGoods .allGoods-all a{
 	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: bold;
 }
 
-.nav .allGoods a img{
+.nav .allGoods .allGoods-all a img{
 	position: relative;
 	top: -1px;
 	left: 10px;
 	-webkit-transform: rotate(180deg);
 	
 }
-.nav .allGoods a img.arrow-right{
+.nav .allGoods .allGoods-all a img.arrow-right{
 	-webkit-transform: rotate(0deg);
 }
 
@@ -286,7 +290,7 @@ a{
 	top: 0px;
 	left: 184px;
 	padding: 0px 18px 0px 18px;
-	/*display: none;*/
+	display: none;
 	z-index: 999;
 }
 
